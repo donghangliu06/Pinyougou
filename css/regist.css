@@ -1,0 +1,151 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* header  */
+.header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+.logo {
+    padding-top: 18px;
+}
+.main {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.main h3 {
+    height: 42px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 41px;
+    color: #333;
+}
+.main .gosign {
+    float: right;
+    height: 41px;
+    line-height: 41px;
+    font-size: 14px;
+}
+.main .gosign a {
+    color: #c81623;
+}
+.main .reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+.reg_form ul li {
+    height: 37px;
+    margin-top: 20px;
+    line-height: 37px;
+}
+.reg_form label {
+    display: inline-block;
+    width: 88px;
+    height: 100%;
+    vertical-align: top;
+    text-align: right;
+}
+.reg_form .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.error {
+    color: #c81523;
+}
+.error_icon, 
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 37px;
+    background: url(../images/矩形8.png) no-repeat center center;
+    vertical-align: top;
+}
+.success {
+    color: #40b83f;
+}
+.success_icon {
+    background: url(../images/success.png) no-repeat center center;
+}
+.reg_form ul .safe {
+    height: auto;
+    padding-left: 142px;
+    margin-top: 10px;
+    line-height: 13px;
+}
+.safe em {
+    padding: 0 12px;
+    font-style: normal;
+    color: #fff;
+}
+.safe .safe_level {
+    color: #b2b2b2;
+}
+.weak {
+    background-color: #de1111;
+}
+.middle {
+    background-color: #40b83f;
+}
+.strong {
+    background-color: #f79100;
+}
+.reg_form .agree {
+    height: auto;
+    line-height: 1;
+    margin-top: 43px;
+}
+.agree input {
+    margin-left: 90px;
+    margin-top: -2px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+.agree span {
+    padding: 0 4px;
+    color: #4d4d4d;
+}
+.agree a {
+    color: #1ba1e6;
+}
+.reg_form ul .finish {
+    height: 34px;
+    margin-top: 52px;
+}
+input[type=submit] {
+    width: 200px;
+    height: 34px;
+    margin-left: 95px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+}
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+.mod_copyright .links {
+    width: 975px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.mod_copyright .links ul li {
+    float: left;
+}
+.mod_copyright .links ul li:nth-child(2n){
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 3px 15px;
+}
+.mod_copyright .copyright {
+    line-height: 20px;
+}

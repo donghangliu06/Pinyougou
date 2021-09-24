@@ -1,0 +1,159 @@
+/* 秒杀logo s */
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #c81523;
+    padding: 3px 14px;
+}
+/* 秒杀logo e */
+/* list nav s */
+.nav {
+    overflow: hidden;
+}
+.nav .sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+.nav .sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+/* list nav e */
+/* goods s */
+.goods_hd {
+    height: 120px;
+    background: url('../images/矩形 39.png');
+}
+.goods_hd .logo {
+    padding-top: 30px;
+    text-align: center;
+}
+.goods_hd .logo span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #c81523;
+    vertical-align: middle;
+}
+.goods_hd .status {
+    width: 225px;
+    height: 25px;
+    margin: 10px auto;
+}
+.goods_hd .status ul li {
+    float: left;
+    height: 25px;
+    margin: 0 10px;
+    line-height: 25px;
+    font-size: 16px;
+    color: #000;
+}
+.goods_hd .status ul li:nth-child(odd) {
+    width: 50px;
+    height: 1px;
+    margin: 12px 10px;
+    background-color: #000;
+}
+.goods_bd {
+    margin-top: 15px;
+}
+.goods_bd ul {
+    width: 1220px;
+}
+.goods_bd ul li {
+    float: left;
+    margin-top: 10px;
+    margin-right: 13px;
+    /* width: 290px;
+    height: 460px; */
+}
+.goods_bd ul li a {
+    display: block;
+    width: 290px;
+    height: 460px;
+}
+.goods_bd .goods_info {
+    height: 410px;
+    border: 1px solid transparent;
+    border-bottom-width: 0; 
+}
+.goods_bd ul li a:hover .goods_info {
+    border-color: #e12228;
+}
+.goods_bd  .png {
+    text-align: center;
+}
+.goods_bd .goods_desc {
+    padding: 0 10px;
+}
+.goods_bd .goods_desc h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+.goods_bd .goods_desc p {
+    margin-top: 5px;
+    font-size: 14px;
+    color:#e60012;
+}
+.goods_bd .goods_desc p span {
+    font-size: 22px;
+}
+.goods_bd .goods_desc p del {
+    margin-left: 10px;
+    color: #a4a4a4;
+}
+.goods_bd .goods_desc .sold {
+    font-size: 14px;
+    color: #666;
+}
+.goods_bd .goods_desc .sold .bar {
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #ed282e;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.goods_bd .goods_desc .sold .bar .bar_in {
+    width: 87%;
+    height: 10px;
+    background-color: #ed282e;
+}
+.goods_bd .goods_desc .sold span {
+    color: #e12228;
+}
+.goods_bd .buy {
+    height: 50px;
+    background-color: #b1191a;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+/* goods e */
